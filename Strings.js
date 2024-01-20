@@ -54,6 +54,29 @@ const min =10;
 const max=20;
 console.log(Math.floor(Math.random()*(max-min +1))+min)
 
+// -----------Date------------------
+// let myDate=new Date()
+// console.log(myDate)
+// console.log(myDate.toString());
+// console.log(myDate.toJSON())
+// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toLocaleTimeString());
+// console.log(typeof myDate);
+
+// let createDate=new Date(2023,0,23);
+// console.log(createDate.toLocaleString())
+ console.log(Math.floor(Date.now()/1000));
+let newDate=new Date();
+console.log(newDate)
+console.log(newDate.getFullYear());
+console.log(newDate.getDay());
+
+console.log(newDate.toLocaleString('default',{
+    weekday:"long"
+}))
+
+
+
 
 
 
