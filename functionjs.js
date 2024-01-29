@@ -43,7 +43,7 @@ console.log("Result is: ",store);
 function login(username){
 
     if(!username){
-        console.log("please login");
+        console.log("please login");  // we also used username ===undefined
         return;
     }
 

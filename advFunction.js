@@ -29,6 +29,6 @@ function returnarraysecond(getarray){
     return getarray[1]
 }
 // console.log(returnarraysecond(newArray));
-console.log(returnarraysecond([1,2,3]));
+console.log(returnarraysecond([1,2,3])); // both are same............
 
 
